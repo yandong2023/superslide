@@ -35,7 +35,7 @@
     <header class="fixed w-full bg-gray-800/90 backdrop-blur-sm z-50">
       <nav class="container mx-auto px-6 py-4">
         <div class="flex items-center justify-between">
-          <a href="#" class="text-2xl font-bold text-purple-500">Klotski</a>
+          <a href="#" class="text-2xl font-bold text-purple-500">Superslide</a>
           <div class="hidden md:flex space-x-8">
             <a href="#features" class="hover:text-purple-400">Features</a>
             <a href="#how-it-works" class="hover:text-purple-400">How to Play</a>
@@ -54,7 +54,7 @@
           Master the Ancient Puzzle
         </h1>
         <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
-          Challenge your mind with Klotski, the legendary sliding block puzzle that has captivated players for generations.
+          Challenge your mind with Superslide, the legendary sliding block puzzle that has captivated players for generations.
         </p>
         <div id="game-container" class="max-w-md mx-auto bg-gray-800 p-4 rounded-lg shadow-xl mb-12"></div>
       </div>
@@ -64,7 +64,7 @@
     <section id="features" class="py-20 bg-gray-800">
       <div class="container mx-auto px-6">
         <h2 class="text-4xl font-bold text-center mb-16">Game Features</h2>
-        <div class="grid md:grid-cols-3 gap-12">
+        <div class="max-w-4xl mx-auto grid md:grid-cols-3 gap-12">
           <div class="text-center">
             <div class="bg-purple-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
               <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -74,7 +74,24 @@
             <h3 class="text-xl font-bold mb-4">Multiple Levels</h3>
             <p class="text-gray-400">From beginner to expert, enjoy progressively challenging puzzles.</p>
           </div>
-          <!-- Add more features -->
+          <div class="text-center">
+            <div class="bg-purple-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold mb-4">Track Progress</h3>
+            <p class="text-gray-400">Monitor your moves and compete for the best solution.</p>
+          </div>
+          <div class="text-center">
+            <div class="bg-purple-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold mb-4">Mobile Ready</h3>
+            <p class="text-gray-400">Play anywhere on any device with touch support.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -83,22 +100,47 @@
     <section id="how-it-works" class="py-20">
       <div class="container mx-auto px-6">
         <h2 class="text-4xl font-bold text-center mb-16">How to Play</h2>
-        <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="grid md:grid-cols-1 gap-12 items-center max-w-2xl mx-auto">
           <div>
             <ol class="space-y-6">
-              <li class="flex gap-4">
+              <li class="flex gap-4 items-center justify-center">
                 <span class="bg-purple-600 w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0">1</span>
-                <p>Slide the blocks vertically or horizontally to create a path.</p>
+                <p class="flex-1">Slide the blocks vertically or horizontally to create a path.</p>
               </li>
-              <li class="flex gap-4">
+              <li class="flex gap-4 items-center justify-center">
                 <span class="bg-purple-600 w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0">2</span>
-                <p>The goal is to move the large block to the exit.</p>
+                <p class="flex-1">The goal is to move the large block to the exit.</p>
               </li>
-              <li class="flex gap-4">
+              <li class="flex gap-4 items-center justify-center">
                 <span class="bg-purple-600 w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0">3</span>
-                <p>Complete the puzzle in as few moves as possible.</p>
+                <p class="flex-1">Complete the puzzle in as few moves as possible.</p>
               </li>
             </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 bg-gray-800">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
+        <div class="max-w-3xl mx-auto space-y-8">
+          <div class="text-center">
+            <h3 class="text-xl font-semibold mb-4">What is Superslide (Klotski)?</h3>
+            <p class="text-gray-400">Superslide, also known as Klotski or 华容道, is a classic sliding block puzzle game that originated in ancient China. The goal is to move blocks around to help the largest block reach the exit.</p>
+          </div>
+          <div class="text-center">
+            <h3 class="text-xl font-semibold mb-4">How do I play?</h3>
+            <p class="text-gray-400">Simply drag the blocks with your mouse or finger to move them. Blocks can only move horizontally and vertically, and they cannot overlap. Try to get the largest block to the exit in as few moves as possible!</p>
+          </div>
+          <div class="text-center">
+            <h3 class="text-xl font-semibold mb-4">Is there a minimum number of moves?</h3>
+            <p class="text-gray-400">Yes! Each puzzle has a theoretical minimum number of moves needed to solve it. Part of the challenge is finding the most efficient solution.</p>
+          </div>
+          <div class="text-center">
+            <h3 class="text-xl font-semibold mb-4">Can I play on mobile?</h3>
+            <p class="text-gray-400">Absolutely! Superslide is fully optimized for both desktop and mobile devices. You can play using touch controls on your smartphone or tablet.</p>
           </div>
         </div>
       </div>
