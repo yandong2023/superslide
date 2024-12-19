@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Slide (Klotski) - Classic Chinese Sliding Block Puzzle Game</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
+    <link rel="apple-touch-icon" href="/public/favicon.svg">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Play Super Slide (Klotski), the classic Chinese sliding block puzzle game. Challenge yourself with this ancient brain teaser that has captivated players for generations.">
+    <meta name="keywords" content="Super Slide, Klotski, 华容道, Sliding Puzzle, Block Puzzle, Brain Teaser, Strategy Game, Chinese Puzzle">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Super Slide (Klotski) - Classic Chinese Puzzle Game">
+    <meta property="og:description" content="Challenge yourself with Super Slide (Klotski), the legendary sliding block puzzle game that has captivated players for generations.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/public/favicon.svg">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5X7LK32GT8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5X7LK32GT8');
+</script>
+    
+    <link href="/style.css" rel="stylesheet">
+  </head>
+  <body class="bg-gray-900 text-white">
+    <!-- Header -->
+    <header class="fixed w-full bg-gray-800/90 backdrop-blur-sm z-50">
+      <nav class="container mx-auto px-6 py-4">
+        <div class="flex items-center justify-between">
+          <a href="#" class="text-2xl font-bold text-purple-500">Klotski</a>
+          <div class="hidden md:flex space-x-8">
+            <a href="#features" class="hover:text-purple-400">Features</a>
+            <a href="#how-it-works" class="hover:text-purple-400">How to Play</a>
+            <a href="#testimonials" class="hover:text-purple-400">Testimonials</a>
+            <a href="#faq" class="hover:text-purple-400">FAQ</a>
+          </div>
+          <button class="bg-purple-600 hover:bg-purple-700 px-6 py-2 rounded-full">Play Now</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-6">
+      <div class="container mx-auto text-center">
+        <h1 class="text-5xl md:text-7xl font-bold mb-8 bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">
+          Master the Ancient Puzzle
+        </h1>
+        <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
+          Challenge your mind with Klotski, the legendary sliding block puzzle that has captivated players for generations.
+        </p>
+        <div id="game-container" class="max-w-md mx-auto bg-gray-800 p-4 rounded-lg shadow-xl mb-12"></div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-gray-800">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-16">Game Features</h2>
+        <div class="grid md:grid-cols-3 gap-12">
+          <div class="text-center">
+            <div class="bg-purple-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold mb-4">Multiple Levels</h3>
+            <p class="text-gray-400">From beginner to expert, enjoy progressively challenging puzzles.</p>
+          </div>
+          <!-- Add more features -->
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="py-20">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-16">How to Play</h2>
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <ol class="space-y-6">
+              <li class="flex gap-4">
+                <span class="bg-purple-600 w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0">1</span>
+                <p>Slide the blocks vertically or horizontally to create a path.</p>
+              </li>
+              <li class="flex gap-4">
+                <span class="bg-purple-600 w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0">2</span>
+                <p>The goal is to move the large block to the exit.</p>
+              </li>
+              <li class="flex gap-4">
+                <span class="bg-purple-600 w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0">3</span>
+                <p>Complete the puzzle in as few moves as possible.</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-12">
+      <div class="container mx-auto px-6">
+        <div class="text-center">
+          <p class="text-gray-400"> 2024 www.superslide.org. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

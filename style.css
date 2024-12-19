@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.block {
+  @apply absolute transition-all duration-200 ease-in-out cursor-pointer border-2 border-purple-600 rounded;
+}
+
+.block:hover {
+  @apply border-purple-400;
+}
